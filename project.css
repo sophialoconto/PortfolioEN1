@@ -103,17 +103,25 @@ pre code, pre code {
 /* Optional block: a photo gallery grid. Use for pages with several  */
 /* work-in-progress or detail photos beyond the one hero image.       */
 .proj-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-    margin: 20px 0;
+    display: block;
+    margin: 20px auto;
+    max-width: 900px;
 }
 
 .proj-gallery img {
+    display: block;
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
     border-radius: var(--radius);
+}
+
+@media (max-width: 600px) {
+    .proj-gallery {
+        max-width: 100%;
+    }
 }
 
 /* Optional block: an embedded video (e.g. YouTube). The padding-top  */
@@ -163,9 +171,5 @@ pre code, pre code {
 
     .proj-header {
         font-size: 1.3em;
-    }
-
-    .proj-gallery img {
-        height: 120px;
     }
 }
