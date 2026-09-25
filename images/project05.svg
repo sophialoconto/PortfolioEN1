@@ -1,0 +1,80 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Spirograph Drawing Machine</title>
+  <desc id="desc">A spirograph-inspired cover image with looping curves, geometric patterns, and the word Drawings rotated diagonally.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7fb"/>
+      <stop offset="100%" stop-color="#edf6ff"/>
+    </linearGradient>
+    <radialGradient id="hub" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1f2937" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="140" width="960" height="620" rx="36" fill="#ffffff" opacity="0.58"/>
+  </g>
+
+  <g transform="translate(150 120)">
+    <g fill="none" stroke-linecap="round">
+      <path d="M300 260 C 420 120, 600 140, 640 270 S 540 470, 340 500 S 140 420, 190 290" stroke="#7c3aed" stroke-width="8" opacity="0.9"/>
+      <path d="M298 262 C 410 160, 585 170, 630 290 S 550 468, 360 480 S 180 400, 195 300" stroke="#f472b6" stroke-width="7" opacity="0.9"/>
+      <path d="M292 270 C 400 190, 560 190, 612 300 S 560 450, 352 470 S 190 390, 212 285" stroke="#22c55e" stroke-width="6" opacity="0.8"/>
+      <path d="M312 290 C 420 240, 545 250, 590 335 S 530 430, 385 430 S 215 350, 238 298" stroke="#f59e0b" stroke-width="6" opacity="0.8"/>
+      <path d="M245 335 C 330 200, 515 170, 620 220 S 760 345, 670 468 S 420 610, 250 530" stroke="#38bdf8" stroke-width="7" opacity="0.8"/>
+      <path d="M250 327 C 345 235, 500 210, 606 250 S 720 360, 670 455 S 435 560, 275 515" stroke="#ef4444" stroke-width="6" opacity="0.8"/>
+    </g>
+
+    <g>
+      <circle cx="430" cy="350" r="190" fill="none" stroke="#1f2937" stroke-width="10"/>
+      <circle cx="430" cy="350" r="130" fill="none" stroke="#1f2937" stroke-width="7" stroke-dasharray="8 14"/>
+      <circle cx="430" cy="350" r="72" fill="url(#hub)" stroke="#1f2937" stroke-width="7"/>
+      <circle cx="430" cy="350" r="12" fill="#1f2937"/>
+      <circle cx="430" cy="350" r="230" fill="none" stroke="#334155" stroke-width="5" stroke-dasharray="10 16"/>
+    </g>
+
+    <g>
+      <path d="M430 350 L640 226" stroke="#7c3aed" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="640" cy="226" r="20" fill="#7c3aed"/>
+      <circle cx="640" cy="226" r="52" fill="none" stroke="#7c3aed" stroke-width="3"/>
+
+      <path d="M430 350 L640 425" stroke="#ef4444" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="640" cy="425" r="18" fill="#ef4444"/>
+      <circle cx="640" cy="425" r="54" fill="none" stroke="#ef4444" stroke-width="3"/>
+
+      <path d="M430 350 L535 510" stroke="#22c55e" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="535" cy="510" r="16" fill="#22c55e"/>
+      <circle cx="535" cy="510" r="46" fill="none" stroke="#22c55e" stroke-width="3"/>
+    </g>
+
+    <g>
+      <rect x="120" y="180" width="90" height="220" rx="18" fill="#1f2937"/>
+      <circle cx="165" cy="235" r="38" fill="#dbeafe"/>
+      <circle cx="165" cy="235" r="14" fill="#111827"/>
+      <path d="M110 287 H220" stroke="#94a3b8" stroke-width="12" stroke-linecap="round"/>
+    </g>
+
+    <g>
+      <rect x="700" y="180" width="90" height="220" rx="18" fill="#1f2937"/>
+      <circle cx="745" cy="235" r="38" fill="#dbeafe"/>
+      <circle cx="745" cy="235" r="14" fill="#111827"/>
+      <path d="M690 287 H800" stroke="#94a3b8" stroke-width="12" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(250 110) rotate(-22 180 85)">
+      <rect x="0" y="0" width="360" height="90" rx="18" fill="#111827"/>
+      <text x="180" y="60" text-anchor="middle" font-size="42" font-family="Arial, sans-serif" font-weight="700" fill="#f8fafc">Drawings</text>
+    </g>
+
+    <g>
+      <rect x="292" y="610" width="290" height="58" rx="16" fill="#0f172a"/>
+      <text x="437" y="649" text-anchor="middle" font-size="30" font-family="Arial, sans-serif" fill="#f8fafc" font-weight="700">ART TIME!</text>
+    </g>
+  </g>
+</svg>
